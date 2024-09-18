@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    color: azure;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main {
+    width: 80%;
+    margin: 7% auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.outputs {
+    margin-top: 20px;
+    background-color: #333;
+}
+
+.task {
+    display: block;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.inputs {
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+#input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+#add {
+    width: 20%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+#add:hover {
+    background-color: #fff;
+    color: #222;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    align-items: top;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.Unfinished {
+    width: 50%;
+}
+
+.Finished {
+    width: 50%;
+}
